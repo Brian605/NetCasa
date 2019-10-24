@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_about"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="@string/about_us" />
+    <item
+        android:id="@+id/nav_whatsapp"
+        android:icon="@drawable/chat"
+        android:title="@string/watsapp" />
+    <item
+        android:id="@+id/nav_phone"
+        android:icon="@drawable/phone_in_talk"
+        android:title="@string/call_us" />
+
+    <item
+        android:id="@+id/nav_message"
+        android:icon="@drawable/message_outline"
+        android:title="@string/sms" />
+    <item
+        android:icon="@drawable/rss"
+        android:id="@+id/feedback"
+        android:title="@string/support" />
+
+    <item android:title="@string/privacy_policy"
+        android:orderInCategory="300"
+        android:icon="@drawable/key_outline"
+        android:id="@+id/privacy"/>
+
+</menu>

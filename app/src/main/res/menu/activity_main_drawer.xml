@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+   <group>
+        <item
+            android:title="@string/menu_home"
+            android:icon="@drawable/home"
+            android:id="@+id/home"/>
+      <item
+          android:id="@+id/specials"
+          android:icon="@drawable/hand_okay"
+          android:title="@string/specials"/>
+       <item
+           android:id="@+id/account"
+           android:icon="@drawable/account"
+           android:title="@string/account"/>
+       <item
+           android:id="@+id/Login"
+           android:icon="@drawable/login"
+           android:title="@string/login"/>
+       <item
+           android:id="@+id/checkorder"
+           android:icon="@drawable/checkbox_marked_circle_outline"
+           android:title="@string/check_your_order"/>
+       <item
+           android:id="@+id/Cart"
+           android:icon="@drawable/cart"
+           android:title="@string/cart"/>
+       <item
+           android:id="@+id/Checkout"
+           android:icon="@drawable/cart_arrow_up"
+           android:title="@string/checkout"/>
+
+   </group>
+
+    <item android:title="@string/food" android:id="@+id/Food">
+    <menu >
+    <item
+        android:id="@+id/Grills"
+        android:icon="@drawable/chevron_right_circle"
+        android:title="@string/grills"/>
+        <item
+            android:id="@+id/maindishes"
+            android:icon="@drawable/chevron_right_circle"
+            android:title="@string/main_dishes"/>
+        <item
+            android:id="@+id/fastFoods"
+            android:icon="@drawable/chevron_right_circle"
+            android:title="@string/fast_foods"/>
+        <item
+            android:id="@+id/Pizzas"
+            android:icon="@drawable/chevron_right_circle"
+            android:title="@string/pizzas_and_burgers"/>
+        <item
+            android:id="@+id/Chicken"
+            android:icon="@drawable/chevron_right_circle"
+            android:title="@string/chicken"/>
+        <item
+            android:id="@+id/Fish"
+            android:icon="@drawable/chevron_right_circle"
+            android:title="@string/fish"/>
+
+        <item
+            android:id="@+id/Snacks"
+            android:icon="@drawable/chevron_right_circle"
+            android:title="@string/snacks"/>
+        <item
+            android:id="@+id/BreakFast"
+            android:icon="@drawable/chevron_right_circle"
+            android:title="@string/break_fast"/>
+
+    </menu>
+    </item>
+
+    <item android:title="@string/drinks" android:id="@+id/drinks">
+    <menu >
+        <item
+            android:id="@+id/Milkshakes"
+            android:icon="@drawable/chevron_right_circle"
+            android:title="@string/milkshakes"/>
+        <item
+            android:id="@+id/DrinkingWater"
+            android:icon="@drawable/chevron_right_circle"
+            android:title="@string/drinking_water"/>
+        <item
+            android:id="@+id/FruitJuices"
+            android:icon="@drawable/chevron_right_circle"
+            android:title="@string/fruitjuices"/>
+        <item
+            android:id="@+id/soda"
+            android:icon="@drawable/chevron_right_circle"
+            android:title="@string/soda_and_energy_drinks"/>
+        <item
+            android:id="@+id/winesandSpirits"
+            android:icon="@drawable/chevron_right_circle"
+            android:title="@string/wines_and_spirits"/>
+
+
+    </menu>
+    </item>
+    <item
+        android:id="@+id/Filmsandlibs" android:title="@string/films_and_libraries">
+    <menu>
+        <item
+            android:id="@+id/series"
+            android:icon="@drawable/chevron_right_circle"
+            android:title="@string/series_and_tv_shows"/>
+        <item
+            android:id="@+id/movies"
+            android:icon="@drawable/chevron_right_circle"
+            android:title="@string/movies"/>
+
+    </menu>
+    </item>
+
+
+
+</menu>
+

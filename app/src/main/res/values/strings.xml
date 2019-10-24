@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">NetCasa</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="netcasa">NetCasa Deliveries</string>
+    <string name="network_error_ensure_you_have_a_working_interenet_connection_and_retry">Network Error. Ensure you have a working interenet Connection and Retry</string>
+    <string name="about_us">About Us</string>
+    <string name="watsapp">WhatsApp</string>
+    <string name="call_us">Call Us</string>
+    <string name="sms">SMS</string>
+    <string name="support">Support and FeedBack</string>
+    <string name="smsprompt"><![CDATA[NetCasa Requires Permission to SendS SMS call. To enable it, click Take Me To settings>>Permissions>>SMS>>enable]]></string>
+    <string name="prompt"><![CDATA[NetCasa Requires Permission to make phone call. To enable it, click Take Me To settings>>Permissions>>Phone>>enable]]></string>
+    <string name="type_your_message_here">Type your message here</string>
+    <string name="send">send</string>
+    <string name="t1">We provide emergency local deliveries such as</string>
+    <string name="l1">Office to Office</string>
+    <string name="l2">Emergency Home Deliveries</string>
+    <string name="l3">Local Parcel delivery</string>
+    <string name="l4">Document Drop Offs like tender docs and letters</string>
+    <string name="t2">We also Pick and drop Laundry to and or from your home office to the dry Cleaner of your choice within your area of convenience</string>
+    <string name="qick_links">Qick Links</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="specials">Specials</string>
+    <string name="account">Account</string>
+    <string name="login">Login</string>
+    <string name="check_your_order">Check Your Order</string>
+    <string name="cart">Cart</string>
+    <string name="checkout">Checkout</string>
+    <string name="food">Food</string>
+    <string name="grills">Grills</string>
+    <string name="main_dishes">Main Dishes</string>
+    <string name="fast_foods">Fast Foods</string>
+    <string name="pizzas_and_burgers">Pizzas and Burgers</string>
+    <string name="chicken">Chicken</string>
+    <string name="fish">Fish</string>
+    <string name="snacks">Snacks</string>
+    <string name="break_fast">Break Fast</string>
+    <string name="milkshakes">MilkShakes</string>
+    <string name="drinking_water">Drinking Water</string>
+    <string name="fruitjuices">FruitJuices</string>
+    <string name="soda_and_energy_drinks">Soda and Energy Drinks</string>
+    <string name="wines_and_spirits">Wines and Spirits</string>
+    <string name="drinks">Drinks</string>
+    <string name="films_and_libraries">Films and Libraries</string>
+    <string name="series_and_tv_shows">Series and Tv Shows</string>
+    <string name="movies">Movies</string>
+    <string name="specialurl">https://cart.netcasa.co.ke/index.php?rt=product/special</string>
+    <string name="loginurl">https://cart.netcasa.co.ke/index.php?rt=account/login</string>
+    <string name="checkorderurl">https://cart.netcasa.co.ke/index.php?rt=account/invoice</string>
+    <string name="checkouturl">https://cart.netcasa.co.ke/index.php?rt=checkout/cart</string>
+    <string name="foodurl"><![CDATA[https://cart.netcasa.co.ke/index.php?rt=product/category&path=71]]></string>
+    <string name="grillsurl"><![CDATA[https://cart.netcasa.co.ke/index.php?rt=product/category&path=71_122]]></string>
+    <string name="maindishesurl"><![CDATA[https://cart.netcasa.co.ke/index.php?rt=product/category&path=71_73]]></string>
+    <string name="fastfoodsurl"><![CDATA[https://cart.netcasa.co.ke/index.php?rt=product/category&path=71_72]]></string>
+    <string name="pizzasurl"><![CDATA[https://cart.netcasa.co.ke/index.php?rt=product/category&path=71_100]]></string>
+    <string name="chickenurl"><![CDATA[https://cart.netcasa.co.ke/index.php?rt=product/category&path=71_104]]></string>
+    <string name="fishurl"><![CDATA[https://cart.netcasa.co.ke/index.php?rt=product/category&path=71_106]]></string>
+    <string name="snacksurl"><![CDATA[https://cart.netcasa.co.ke/index.php?rt=product/category&path=71_103]]></string>
+    <string name="breakfasturl"><![CDATA[https://cart.netcasa.co.ke/index.php?rt=product/category&path=71_120]]></string>
+    <string name="drinksurl"><![CDATA[https://cart.netcasa.co.ke/index.php?rt=product/category&path=101]]></string>
+    <string name="milkshakesurl"><![CDATA[https://cart.netcasa.co.ke/index.php?rt=product/category&path=101_121]]></string>
+    <string name="drinkwaterurl"><![CDATA[https://cart.netcasa.co.ke/index.php?rt=product/category&path=101_102]]></string>
+    <string name="fruitsurl"><![CDATA[https://cart.netcasa.co.ke/index.php?rt=product/category&path=101_74]]></string>
+    <string name="sodaurl"><![CDATA[https://cart.netcasa.co.ke/index.php?rt=product/category&path=101_107]]></string>
+    <string name="winesurl"><![CDATA[https://cart.netcasa.co.ke/index.php?rt=product/category&path=101_108]]></string>
+    <string name="filmsurl"><![CDATA[https://cart.netcasa.co.ke/index.php?rt=product/category&path=123]]></string>
+    <string name="seriesurl"><![CDATA[https://cart.netcasa.co.ke/index.php?rt=product/category&path=123_125]]></string>
+    <string name="moviesurl"><![CDATA[https://cart.netcasa.co.ke/index.php?rt=product/category&path=123_124]]></string>
+    <string name="errorToast">Error sending debug</string>
+</resources>
