@@ -8,6 +8,8 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.PorterDuff;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -184,6 +186,11 @@ public class MainActivity extends AppCompatActivity {
             toolbar.getOverflowIcon().setColorFilter(ContextCompat.getColor(getApplicationContext(), R.color.colorwhite), PorterDuff.Mode.SRC_ATOP);
         }
 
+        if (!isNetworkAvailable()){
+            showError();
+            return;
+        }
+
         // setCollapsingToolbar();
         loadWebView(webView, url, progressBar, imgView);
     }
@@ -322,12 +329,12 @@ try {
 }catch (Exception e){
 
   showError();
-  return;
 }
     }
 //</editor-fold>
 
 //<editor-fold desc="Load WebView">
+    @SuppressLint("SetJavaScriptEnabled")
     private void loadWebView(final WebView webView, String url, final ProgressBar progress, ImageView imgView) {
         WebSettings settings=webView.getSettings();
         //settings.setAllowContentAccess(true);
@@ -374,7 +381,7 @@ progress.setVisibility(View.VISIBLE);
 
     public class ChromeClient extends WebChromeClient{
         Context context;
-        public ChromeClient(Context context){
+        ChromeClient(Context context){
             super();
             this.context=context;
         }
@@ -382,7 +389,7 @@ progress.setVisibility(View.VISIBLE);
 
     public class Client extends WebViewClient{
         ProgressBar progressBar;
-        public  Client(ProgressBar progressBar){
+        Client(ProgressBar progressBar){
             this.progressBar=progressBar;
         }
         @Override
@@ -450,5 +457,13 @@ progress.setVisibility(View.VISIBLE);
         }else {
             super.onBackPressed();
         }
+    }
+
+    private boolean isNetworkAvailable() {
+        ConnectivityManager connectivityManager
+                = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+        assert connectivityManager!=null;
+        NetworkInfo activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
+        return activeNetworkInfo != null && activeNetworkInfo.isConnected();
     }
 }

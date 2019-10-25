@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.return0.netcasa">
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
@@ -10,6 +11,7 @@
 
     <application
         android:allowBackup="true"
+        android:fullBackupContent="true"
         android:icon="@drawable/netcasa"
         android:label="@string/app_name"
         android:roundIcon="@drawable/netcasa_logo"
